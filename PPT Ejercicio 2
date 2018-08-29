@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b,c,d,e,f,g,m,s;
+    cout<<"Ingresa Valores para el angulo 1: ";
+    cin>>a;
+    cin>>b;
+    cin>>c;
+
+    cout<<"Ingresa Valores para el angulo 2: ";
+    cin>>d;
+    cin>>e;
+    cin>>f;
+
+    s=(c+f)%60;
+    m=((b+e)+((c+f)/60))%60;
+    g=(a+d)+((b+e)/60);
+
+    cout<<"Grado(s): "<<g<<" ";
+    cout<<"Minuto(s): "<<m<<" ";
+    cout<<"Segundo(s): "<<s;
+
+    return 0;
+}
