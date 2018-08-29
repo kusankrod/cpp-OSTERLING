@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    float sol,dolar,euro;
+    cout<<"Ingrese su cantidad de soles: ";
+    cin>>sol;
+
+    dolar=sol*0.3;
+    euro=sol*0.26;
+
+    cout<<"Son "<<dolar<< " dolares"<<"\n";
+    cout<<"o"<<"\n";
+    cout<<"Son "<<euro<< " euros";
+    return 0;
+}
